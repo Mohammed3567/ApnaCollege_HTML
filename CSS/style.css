@@ -1,0 +1,75 @@
+/* Global Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f871; /* Light Yellow background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #000;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* Form Container */
+form {
+    background-color: #fff; /* White background for form */
+    padding: 20px;
+    border: 3px solid #000; /* Black border around the form */
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto; /* Center the form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* Form Input Styles */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 2px solid #000; /* Black border around inputs */
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Checkbox Styling */
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Submit and Reset Button Styling */
+input[type="submit"],
+input[type="reset"] {
+    background-color: #000;
+    color: #f9f871; /* Yellow text */
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 48%; /* Buttons take equal width */
+    margin: 5px 1%;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #f9f871; /* Yellow background on hover */
+    color: #000; /* Black text on hover */
+}
+
+/* Form Label Styling */
+label {
+    font-weight: bold;
+    color: #000;
+}
+
+/* Centering the form and inputs */
+div {
+    margin-bottom: 15px;
+}

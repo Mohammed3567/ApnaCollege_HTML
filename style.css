@@ -1,0 +1,85 @@
+/* Global Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f871; /* Light Yellow background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #f9f871; /* Yellow text */
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #fff; /* White on hover */
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+h1 {
+    color: #000;
+    text-align: center;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff; /* White background for contrast */
+}
+
+th {
+    background-color: #000;
+    color: #f9f871; /* Yellow text */
+    padding: 10px;
+    font-size: 18px;
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #000;
+}
+
+caption {
+    color: #000;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: #f9f871; /* Yellow text */
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+iframe {
+    border: 10px solid #000; /* Black border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for a neat look */
+    width: 100%; /* Make it responsive */
+    max-width: 560px; /* Limit the max width */
+    height: 315px;
+    display: block;
+    margin: 0 auto; /* Center the iframe */
+}
